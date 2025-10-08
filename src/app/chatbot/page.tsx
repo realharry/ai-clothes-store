@@ -97,7 +97,7 @@ export default function ChatbotPage() {
   return (
     <div className="flex flex-col py-12">
       <div className="container px-4 max-w-4xl">
-        <div className="mb-8">
+        <div className="mb-8 text-center">
           <h1 className="font-playfair text-4xl font-bold mb-4">
             Fashion Assistant
           </h1>

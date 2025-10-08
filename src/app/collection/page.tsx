@@ -81,11 +81,11 @@ export default function CollectionPage() {
   return (
     <div className="flex flex-col py-12">
       <div className="container px-4">
-        <div className="mb-12">
+        <div className="mb-12 text-center">
           <h1 className="font-playfair text-4xl font-bold mb-4 md:text-5xl">
             Our Collection
           </h1>
-          <p className="text-lg text-muted-foreground max-w-3xl">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Explore our carefully curated selection of luxury dresses and gowns. 
             Each piece is selected for its exceptional quality, timeless design, 
             and ability to make you feel extraordinary.

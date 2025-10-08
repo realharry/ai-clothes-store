@@ -7,11 +7,11 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col py-12">
       <div className="container px-4">
-        <div className="mb-12">
+        <div className="mb-12 text-center">
           <h1 className="font-playfair text-4xl font-bold mb-4 md:text-5xl">
             Get in Touch
           </h1>
-          <p className="text-lg text-muted-foreground max-w-3xl">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             We'd love to hear from you. Visit us in store, give us a call, 
             or send us a message to schedule a personal styling appointment.
           </p>

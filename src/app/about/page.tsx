@@ -5,11 +5,11 @@ export default function AboutPage() {
     <div className="flex flex-col py-12">
       <div className="container px-4">
         {/* Hero Section */}
-        <div className="mb-16">
+        <div className="mb-16 text-center">
           <h1 className="font-playfair text-4xl font-bold mb-6 md:text-5xl">
             About Elegance Boutique
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Since 2015, Elegance Boutique has been San Diego's premier destination 
             for luxury women's fashion. Located in the heart of downtown, we bring 
             together exceptional craftsmanship, timeless elegance, and personalized service.

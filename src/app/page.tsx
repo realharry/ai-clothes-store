@@ -30,7 +30,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-pink-50 via-rose-50 to-amber-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         <div className="container px-4 py-24 md:py-32 lg:py-40">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto text-center">
             <h1 className="font-playfair text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl mb-6">
               Where Luxury Meets{" "}
               <span className="text-primary">Elegance</span>
@@ -39,7 +39,7 @@ export default function Home() {
               Discover exquisite women's fashion in the heart of downtown San Diego. 
               Each piece in our collection is carefully curated to embody sophistication and timeless beauty.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="text-lg">
                 <Link href="/collection">
                   Explore Collection
